@@ -1,13 +1,24 @@
 import '../styles/globals.css';
 import Head from 'next/head';
+import Sidebar from './Sidebar';
 
 function App({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>Next.js App</title>
-      </Head>
-      <Component {...pageProps} />
+      <div className='app'>
+        <h1>Let's build twitter</h1>
+
+        {/* Sidebar */}
+        <Sidebar />
+
+        
+        {/* Feed */}
+
+
+        {/* Widgets */}
+
+
+      </div>
     </>
   );
 }
