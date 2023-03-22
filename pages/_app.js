@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import Head from 'next/head';
-import Sidebar from './Sidebar';
+import Sidebar from '../components/Sidebar';
 
 function App({ Component, pageProps }) {
   return (
