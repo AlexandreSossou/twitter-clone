@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <div className='app'>
-        <h1>Let's build twitter</h1>
+        <h1></h1>
 
         {/* Sidebar */}
         <Sidebar />
