@@ -1,6 +1,9 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import Sidebar from '../components/Sidebar';
+import Feed from '../components/Feed';
+import Widgets from '../components/Widgets';
+import TweetBox from '../components/TweetBox';
 
 function App({ Component, pageProps }) {
   return (
@@ -13,9 +16,11 @@ function App({ Component, pageProps }) {
 
         
         {/* Feed */}
+        <Feed />
 
 
         {/* Widgets */}
+        <Widgets />
 
 
       </div>
